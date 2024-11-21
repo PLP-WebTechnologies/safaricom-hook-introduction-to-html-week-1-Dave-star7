@@ -30,3 +30,45 @@ Use common HTML tags like h1, p, a, img, and ul or ol.
 Structure a webpage with semantic tags such as header, footer, nav, section, and article.
 Ensure the content is well-organized for readability and SEO.
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage demonstrating HTML5, semantic tags, and accessibility.">
+    <title>My Simple Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of the webpage.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write something about yourself here.</p>
+            <img src="about.jpg" alt="A description of the image">
+        </section>
+        <article>
+            <h2>My Blog Post</h2>
+            <p>This is an article about a topic I find interesting.</p>
+        </article>
+    </main>
+    <footer>
+        <p>© 2024 My Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
